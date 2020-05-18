@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { doThings } from "../actions";
+import { doThings } from "../store/actions";
 
 const IndexPage = () => {
   const store = useSelector(state => state);
